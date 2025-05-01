@@ -106,7 +106,10 @@ BERT GitHub Repository
 SQuAD: Stanford Question Answering Dataset
 
 bash
-cd BERT-Applications
+
+cd BERT
+
 bash
+
 Créé avec ❤️ par [jihane bouramtane]
 Si vous trouvez ce projet utile, n'hésitez pas à lui donner une ⭐ sur GitHub !
