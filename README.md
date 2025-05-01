@@ -1,51 +1,53 @@
 # bert
-![image](https://github.com/user-attachments/assets/80135ded-a55a-460b-b68b-c517bf9d3bfc)
+                                      
+                                      ![image](https://github.com/user-attachments/assets/80135ded-a55a-460b-b68b-c517bf9d3bfc)
 
-Ce dépôt contient une collection de notebooks Jupyter démontrant diverses applications pratiques des
-modèles BERT (Bidirectional Encoder Representations from Transformers) pour le traitement du langage
-naturel.
-Show Image
-Table des matières
-Présentation
-Notebooks disponibles
-Similarité sémantique
-Installation
-Utilisation
-Technologies utilisées
-Prérequis
-Références
-Licence
-Présentation
+
+         Ce dépôt contient une collection de notebooks Jupyter démontrant diverses applications pratiques desmodèles BERT (Bidirectional Encoder Representations from Transformers) pour le traitement du langagenaturel.
+
+*Présentation*
+
 BERT (Bidirectional Encoder Representations from Transformers) est une technique de pré-entraînement
 de représentations linguistiques développée par Google qui a révolutionné le traitement automatique du
 langage naturel. Ce dépôt fournit des exemples pratiques d'utilisation de BERT pour diverses tâches de
 NLP.
 Les exemples sont conçus pour être accessibles et réutilisables, permettant d'adapter facilement ces
 techniques à vos propres projets.
-Notebooks disponibles
-1. Masked Language Model (MLM.ipynb)
+
+*Notebooks disponibles*
+
+                                                                 1. Masked Language Model (MLM.ipynb)
+                                                                 
 Ce notebook montre comment utiliser BERT pour la tâche de modélisation du langage masqué. BERT
 prédit les mots masqués dans une phrase.
 Fonctionnalités :Tokenisation de texte
 Prédiction de mots masqués
 Visualisation des prédictions les plus probables
-2. Question & Answer (Q&A.ipynb)
+
+                                                                 2. Question & Answer (Q&A.ipynb)
+                                                                 
 Ce notebook démontre l'utilisation de BERT pour répondre à des questions en se basant sur un contexte
 donné.
 Fonctionnalités :
 Tokenisation de questions et de paragraphes
 Extraction de réponses à partir d'un texte
 Utilisation du modèle BERT fine-tuné sur le dataset SQuAD
-3. Similarité sémantique (similarity.ipynb)
+                                                              
+                                                                 3. Similarité sémantique (similarity.ipynb)
+                                                                 
 Ce notebook implémente la mesure de similarité sémantique entre textes en utilisant BERT.
 Fonctionnalités :
 Génération d'embeddings de phrases avec BERT
 Calcul de similarité cosinus entre textes
 Classification de textes similaires vs. dissimilaires
-4. Similarité en arabe (arabic_similarity.ipynb)
+                                                               
+                                                                 4. Similarité en arabe (arabic_similarity.ipynb)
+                                                                 
 À venir - Ce notebook démontrera l'utilisation de modèles BERT multilingues ou spécifiques à l'arabe
 pour l'analyse de similarité de textes arabes.
-5. Input/Output de BERT (bert_io.ipynb)
+                                                              
+                                                                5. Input/Output de BERT (bert_io.ipynb)
+                                                                
 À venir - Ce notebook expliquera en détail le fonctionnement des entrées et sorties du modèle BERT.
 Similarité sémantique
 Le notebook similarity.ipynb est particulièrement intéressant pour comprendre comment BERT peut
@@ -79,7 +81,7 @@ pip install pandas matplotlib seaborn scikit-learn
 bash
 pip install -r requirements.txt
 bash
-git clone https://github.com/VOTRE_NOM_UTILISATEUR/BERT-Applications.git3. Lancez Jupyter Notebook :
+git clone https://github.com/jihanebouramtane/bert.git3. Lancez Jupyter Notebook :
 4. Ouvrez le notebook de votre choix et exécutez les cellules.
 Technologies utilisées
 Framework de Deep Learning : PyTorch, TensorFlow
