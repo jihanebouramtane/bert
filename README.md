@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/80135ded-a55a-460b-b68b-c517bf9d3bfc)
 
 
-         Ce dépôt contient une collection de notebooks Jupyter démontrant diverses applications pratiques desmodèles BERT (Bidirectional Encoder Representations from Transformers) pour le traitement du langagenaturel.
+Ce dépôt contient une collection de notebooks Jupyter démontrant diverses applications pratiques desmodèles BERT (Bidirectional Encoder Representations from Transformers) pour le traitement du langagenaturel.
 
 *Présentation*
 
