@@ -45,8 +45,15 @@ Classification de textes similaires vs. dissimilaires
                                                                  
 À venir - Ce notebook démontrera l'utilisation de modèles BERT multilingues ou spécifiques à l'arabe
 pour l'analyse de similarité de textes arabes.
-                                                              
-                                                                5. Input/Output de BERT (bert_io.ipynb)
+
+                                                                 5. classification des spam (email_classification.ipynb)
+                                                                 
+Ce notebook implémente la mesure la classification des email spam en fine tuné BERT.
+Fonctionnalités :
+Génération d'embeddings de phrases avec BERT
+Calcul de similarité cosinus entre textes
+Classification d ' email  spam vs non spam
+                                                                6. Input/Output de BERT (bert_io.ipynb)
                                                                 
 À venir - Ce notebook expliquera en détail le fonctionnement des entrées et sorties du modèle BERT.
 Similarité sémantique
